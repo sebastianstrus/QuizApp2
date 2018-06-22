@@ -134,21 +134,8 @@
                                 <color key="textColor" red="0.17342163705583757" green="0.16921382671776608" blue="0.1565903957035516" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="highlightedColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </label>
-                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ug1-6d-FEt">
-                                <rect key="frame" x="71" y="573" width="197" height="52"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.32239739638319126" green="0.3612756895753701" blue="0.76159977791878175" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="23"/>
-                                <size key="titleShadowOffset" width="2" height="2"/>
-                                <state key="normal" title="Spela igen">
-                                    <color key="titleColor" red="1" green="0.97630736669999996" blue="0.89881607370000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                                <connections>
-                                    <action selector="playAgain:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kzn-y8-VaW"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UkD-rC-QYC">
-                                <rect key="frame" x="71" y="505" width="197" height="52"/>
+                                <rect key="frame" x="89" y="504" width="197" height="52"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.32239739638319126" green="0.3612756895753701" blue="0.76159977791878175" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="23"/>
@@ -158,6 +145,19 @@
                                 </state>
                                 <connections>
                                     <action selector="nextQuestionPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gpQ-Sg-hHk"/>
+                                </connections>
+                            </button>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ug1-6d-FEt">
+                                <rect key="frame" x="89" y="572" width="197" height="52"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.32239739638319126" green="0.3612756895753701" blue="0.76159977791878175" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="23"/>
+                                <size key="titleShadowOffset" width="2" height="2"/>
+                                <state key="normal" title="Spela igen">
+                                    <color key="titleColor" red="1" green="0.97630736669999996" blue="0.89881607370000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="playAgain:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kzn-y8-VaW"/>
                                 </connections>
                             </button>
                         </subviews>
