@@ -124,17 +124,16 @@
 		7DCAACC51E42C4D0001D829B /* QuizApp2 */ = {
 			isa = PBXGroup;
 			children = (
+				7DE3D96F1E57936300255504 /* Model */,
+				7DF3526420DD9ED700CF9D32 /* View */,
+				7DF3526320DD9EB700CF9D32 /* Controller */,
 				7DCAACC91E42C4D0001D829B /* AppDelegate.h */,
 				7DCAACCA1E42C4D0001D829B /* AppDelegate.m */,
-				7DCAACCC1E42C4D0001D829B /* ViewController.h */,
-				7DCAACCD1E42C4D0001D829B /* ViewController.m */,
-				7DCAACCF1E42C4D0001D829B /* Main.storyboard */,
 				7D077CCF1E57EE5C008B9A40 /* Sounds */,
 				7DCAACD21E42C4D0001D829B /* Assets.xcassets */,
 				7DCAACD41E42C4D0001D829B /* LaunchScreen.storyboard */,
 				7DCAACD71E42C4D0001D829B /* Info.plist */,
 				7DCAACC61E42C4D0001D829B /* Supporting Files */,
-				7DE3D96F1E57936300255504 /* Model */,
 			);
 			path = QuizApp2;
 			sourceTree = "<group>";
@@ -156,6 +155,23 @@
 				7DDC50111E5718A7004A01D9 /* Question.m */,
 			);
 			name = Model;
+			sourceTree = "<group>";
+		};
+		7DF3526320DD9EB700CF9D32 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7DCAACCC1E42C4D0001D829B /* ViewController.h */,
+				7DCAACCD1E42C4D0001D829B /* ViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		7DF3526420DD9ED700CF9D32 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7DCAACCF1E42C4D0001D829B /* Main.storyboard */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -225,6 +241,7 @@
 				TargetAttributes = {
 					7DCAACC21E42C4D0001D829B = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 4SL936GBZY;
 						ProvisioningStyle = Automatic;
 					};
 					7DCAACDB1E42C4D0001D829B = {
@@ -442,7 +459,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 4SL936GBZY;
 				INFOPLIST_FILE = QuizApp2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = SEB.QuizApp2;
@@ -454,7 +471,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 4SL936GBZY;
 				INFOPLIST_FILE = QuizApp2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = SEB.QuizApp2;

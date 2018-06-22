@@ -49,7 +49,7 @@
     NSString * checkedBtn = [[sender titleLabel] text];
     BOOL right = [self.game checkAnswer:checkedBtn Question:self.currentQuestion];
     if (right) {
-        self.answerInfo.textColor = [UIColor colorWithRed:0 green:256 blue:0 alpha:1.0];
+        self.answerInfo.textColor = [UIColor colorWithRed:34.0f/255.0f green:139.0f/255.0f blue:34.0f/255.0f alpha:1.0f];
         if(!self.currentQuestion.answered) {
             self.game.points++;
             self.currentQuestion.answered = YES;
@@ -117,13 +117,21 @@
 
 // improves the appearance of the application
 - (void)setNiceView {
-    self.btn1.layer.borderWidth = 1.0f;
-    self.btn2.layer.borderWidth = 1.0f;
-    self.btn3.layer.borderWidth = 1.0f;
-    self.btn4.layer.borderWidth = 1.0f;
+    self.btn1.layer.borderWidth = 0.5f;
+    self.btn2.layer.borderWidth = 0.5f;
+    self.btn3.layer.borderWidth = 0.5f;
+    self.btn4.layer.borderWidth = 0.5f;
     
-    self.btnNextQuestion.layer.borderWidth = 1.0f;
-    self.btnPlayAgain.layer.borderWidth = 1.0f;
+    self.btn1.layer.cornerRadius = 5;
+    self.btn2.layer.cornerRadius = 5;
+    self.btn3.layer.cornerRadius = 5;
+    self.btn4.layer.cornerRadius = 5;
+    
+    
+    self.btnNextQuestion.layer.borderWidth = 0.5f;
+    self.btnNextQuestion.layer.cornerRadius = 10;
+    self.btnPlayAgain.layer.borderWidth = 0.5f;
+    self.btnPlayAgain.layer.cornerRadius = 10;
 }
 
 
